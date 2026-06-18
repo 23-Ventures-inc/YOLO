@@ -1,6 +1,0 @@
-{
-  "name": "YOLO Startup Bootcamp",
-  "description": "A high-energy Neo-Brutalist landing page for YOLO - a 90-day startup bootcamp pressure cooker for GenZ builders.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
