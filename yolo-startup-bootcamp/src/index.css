@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Permanent+Marker&family=Rubik+Mono+One&family=Space+Grotesk:wght@400;500;700;800&family=Syne:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-display: "Syne", sans-serif;
+  --font-chunky: "Rubik Mono One", sans-serif;
+  --font-sketch: "Gochi Hand", cursive;
+  --font-marker: "Permanent Marker", cursive;
+}
+
+@layer utilities {
+  /* MS Paint-style Grid background */
+  .paint-grid {
+    background-color: #FFFF00;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .paint-grid-white {
+    background-color: #faf9f5;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  /* Early MS-Paint style dither effect overlay */
+  .paint-dither {
+    background-image: radial-gradient(rgba(0,0,0,0.15) 15%, transparent 16%),
+                      radial-gradient(rgba(0,0,0,0.15) 15%, transparent 16%);
+    background-size: 4px 4px;
+    background-position: 0 0, 2px 2px;
+  }
+
+  /* Marquee animation scroll */
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-marquee {
+    display: flex;
+    width: max-content;
+    animation: marquee 30s linear infinite;
+  }
+
+  .animate-marquee-fast {
+    display: flex;
+    width: max-content;
+    animation: marquee 15s linear infinite;
+  }
+
+  /* Hand-drawn scribble stroke keyframes */
+  @keyframes scribble {
+    0% { stroke-dashoffset: 1000; }
+    100% { stroke-dashoffset: 0; }
+  }
+
+  /* Neo-brutalist buttons & active state helpers */
+  .neo-btn {
+    transition: all 0.1s ease;
+  }
+
+  .neo-shadow {
+    box-shadow: 10px 10px 0px 0px #000000;
+  }
+
+  .bento-hover {
+    transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.2), box-shadow 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.2);
+  }
+
+  .bento-hover:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 20px 20px 0px 0px #000000;
+  }
+
+  .neo-shadow-lg {
+    box-shadow: 16px 16px 0px 0px #000000;
+  }
+
+  .neo-shadow-xl {
+    box-shadow: 24px 24px 0px 0px #000000;
+  }
+
+  .neo-shadow-pink {
+    box-shadow: 10px 10px 0px 0px #ff00ff;
+  }
+
+  .neo-shadow-green {
+    box-shadow: 10px 10px 0px 0px #00ff00;
+  }
+
+  .neo-shadow-cyan {
+    box-shadow: 10px 10px 0px 0px #00ffff;
+  }
+
+  /* Isometric layered perspective look */
+  .isometric-depth {
+    position: relative;
+  }
+  .isometric-depth::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 4px border-black;
+    transform: translate(8px, 8px);
+    z-index: -1;
+    background-color: #000;
+  }
+}
+
+/* Base style styling */
+body {
+  font-family: var(--font-sans);
+  background-color: #000000;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+/* Custom rough border styles */
+.border-dashed-thick {
+  border-style: dashed;
+  border-width: 4px;
+  border-color: #000000;
+}
