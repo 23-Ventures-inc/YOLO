@@ -755,7 +755,7 @@ export default function App() {
         <div className="flex justify-center space-x-4 mt-4 text-[#FFFF00]/80">
           <span className="hover:underline cursor-pointer">@YOLOCIRCUIT</span>
           <span>•</span>
-          <a href="mailto:submissions@youonlylaunchitonce.com" className="hover:underline cursor-pointer text-[#00FFFF]">GMAIL (submissions@youonlylaunchitonce.com)</a>
+          <a href="mailto:submissions@youonlylaunchitonce.com" className="hover:underline cursor-pointer text-[#00FFFF]">GMAIL (submissions@youonlylaunchonce.in)</a>
           <span>•</span>
           <button 
             onClick={() => setShowPrivacy(!showPrivacy)} 
