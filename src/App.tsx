@@ -274,7 +274,7 @@ export default function App() {
           {/* Stat 3 */}
           <div className="border-[6px] border-black bg-white text-black p-4 sm:p-6 md:p-8 neo-shadow bento-hover transition-all">
             <span className="font-chunky text-4xl sm:text-5xl md:text-7xl block tracking-tighter leading-none mb-2">
-              ₹5K
+              ₹50K
             </span>
             <span className="font-chunky text-[10px] sm:text-xs md:text-sm uppercase tracking-tight text-gray-700 font-black block">
               Per Month
