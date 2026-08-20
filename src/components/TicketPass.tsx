@@ -113,11 +113,11 @@ export const TicketPass = ({
 
             <div className="mt-8 pt-4 border-t border-gray-800 space-y-3 relative z-10 w-full">
               <div className="bg-gray-900 border-2 border-gray-700 p-3.5 font-mono text-xs text-[#00FF00] break-all select-all font-bold text-center">
-                submissions@youonlylaunchitonce.com
+                submissions@youonlylaunchonce.in
               </div>
 
               <a 
-                href="mailto:submissions@youonlylaunchitonce.com?subject=YOLO%20Circuit-1%20Founder%20Application&body=Hello%20YOLO%20Team%2C%0D%0A%0D%0AMy%20Name%3A%20%0D%0AMy%20Project%3A%20%0D%0AGame-plan%20link%3A%20"
+                href="mailto:submissions@youonlylaunchonce.in?subject=YOLO%20Circuit-1%20Founder%20Application&body=Hello%20YOLO%20Team%2C%0D%0A%0D%0AMy%20Name%3A%20%0D%0AMy%20Project%3A%20%0D%0AGame-plan%20link%3A%20"
                 className="w-full bg-[#00ff7f] hover:bg-[#02e071] text-black font-chunky text-xs uppercase py-3.5 px-4 border-2 border-black transition-all text-center block"
               >
                 ➔ DISPATCH GMAIL INQUIRY
