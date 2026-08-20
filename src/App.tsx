@@ -654,7 +654,7 @@ export default function App() {
                   {/* Row 1 */}
                   <div className="flex justify-between items-center py-2.5 sm:py-3 border-b-[3px] border-dashed border-gray-300">
                     <span className="text-gray-500 font-mono text-[10px] sm:text-sm uppercase">🗓 DATES</span>
-                    <span className="font-chunky text-xs sm:text-base text-rose-600">23rd June – 23rd Sep</span>
+                    <span className="font-chunky text-xs sm:text-base text-rose-600">First Week of Sep</span>
                   </div>
 
                   {/* Row 2 */}
@@ -666,7 +666,7 @@ export default function App() {
                   {/* Row 3 */}
                   <div className="flex justify-between items-center py-2.5 sm:py-3 border-b-[3px] border-dashed border-gray-300">
                     <span className="text-gray-500 font-mono text-[10px] sm:text-sm uppercase">🪙 INVESTMENT</span>
-                    <span className="font-chunky text-xs sm:text-base text-emerald-600">₹5,000/month</span>
+                    <span className="font-chunky text-xs sm:text-base text-emerald-600">₹50,000/month</span>
                   </div>
 
                   {/* Row 4 */}
