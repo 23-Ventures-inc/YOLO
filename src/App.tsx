@@ -790,7 +790,7 @@ export default function App() {
                 </p>
                 <p>
                   <strong className="text-white block uppercase mb-1">3. Gmail Intake Safeguards</strong>
-                  When using direct correspondence desks (<span className="text-[#00FFFF]">submissions@youonlylaunchitonce.com</span>), email contents, slide decks, and code repository links are shared only with registered venture board members. We do not sell or distribute applicant registers to external recruiters or brokers.
+                  When using direct correspondence desks (<span className="text-[#00FFFF]">submissions@youonlylaunchonce.in</span>), email contents, slide decks, and code repository links are shared only with registered venture board members. We do not sell or distribute applicant registers to external recruiters or brokers.
                 </p>
                 <p>
                   <strong className="text-white block uppercase mb-1">4. Absolute Data Sovereignty</strong>
